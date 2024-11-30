@@ -174,9 +174,9 @@
     div.adbox_6 {
       z-index: 99999;
       align-items: center;
-      margin-top: 98px;
+      margin-top: 0px;
       display: flex;
-      height: 100vh;
+      height: calc(100vh - 98px);
       justify-content: center;
       position: absolute;
       width: calc(50vw - 300px);
@@ -304,7 +304,7 @@
         display: none;
       }
     }
-    @media screen and (max-width: 1400px) and (max-height: 690px) {
+    @media screen and (max-width: 1400px), screen and (max-height: 690px) {
       div.adbox_6 {
         display: none;
       }
