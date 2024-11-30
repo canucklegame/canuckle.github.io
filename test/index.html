@@ -27,7 +27,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">  <!--added from original-->
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <script src="video_ad.js" defer></script>
+  <script src="/assets/assets/js/video_ad.js" defer=""></script>
+
+  <script type="text/javascript" src="https://portal.cdn.yollamedia.com/storage/tag/ps6d46b18362b4075b4074ad02399f36e91e9d429e.js"></script>
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
@@ -169,6 +171,18 @@
       margin: auto;
       background-color: purple;
     }
+    div.adbox_6 {
+      z-index: 99999;
+      align-items: center;
+      margin-top: 98px;
+      display: flex;
+      height: calc(100vh - 98px);
+      justify-content: center;
+      position: absolute;
+      width: calc(50vw - 3x100px);
+      overflow: hidden; 
+      background-color: red;
+    }
     div.mobileadbox {
       z-index: 99999;
       height: 50px;
@@ -213,6 +227,12 @@
       left: 0;
     }
     div.adbox_4:nth-child(10) {
+      right: 0;
+    }
+    div.adbox_6:nth-child(12) {
+      left: 0;
+    }
+    div.adbox_6:nth-child(13) {
       right: 0;
     }
 
@@ -279,6 +299,16 @@
         display: none;
       }
     }
+    @media screen and (min-width: 1400px) {
+      div.adbox_4 {
+        display: none;
+      }
+    }
+    @media screen and (max-width: 1400px) {
+      div.adbox_6 {
+        display: none;
+      }
+    }
   </style>
 </head>
 <body>
@@ -329,6 +359,14 @@
     </div>
     <div class="adbox_5">
       <div class="ympb_target" data-type="desktop-medrec-template" data-subtype="728x90, 970x90">
+      </div>
+    </div>
+    <div class="adbox_6">
+      <div class="ympb_target_companion" data-type="desktop-medrec-template" data-subtype="400x600">
+      </div>
+    </div>
+    <div class="adbox_6">
+      <div class="ympb_target_companion" data-type="desktop-medrec-template" data-subtype="400x600">
       </div>
     </div>
     <div class="game">
