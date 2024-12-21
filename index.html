@@ -199,6 +199,18 @@ if (/canucklegame.github.io/.test(window.location) === true) {
       margin: auto;
       position: relative; 
     }
+    div.adbox_6 {
+      z-index: 99999;
+      align-items: center;
+      margin-top: 98px;
+      display: flex;
+      height: calc(100vh - 98px);
+      justify-content: center;
+      position: absolute;
+      width: calc(50vw - 300px);
+      overflow: hidden; 
+      background-color: red;
+    }
     div.mobileadbox {
       z-index: 1000000;
       height: 50px;
@@ -241,6 +253,12 @@ if (/canucklegame.github.io/.test(window.location) === true) {
       left: 0;
     }
     div.adbox_4:nth-child(10) {
+      right: 0;
+    }
+    div.adbox_6:nth-child(12) {
+      left: 0;
+    }
+    div.adbox_6:nth-child(13) {
       right: 0;
     }
 
@@ -307,6 +325,16 @@ if (/canucklegame.github.io/.test(window.location) === true) {
         display: none;
       }
     }
+    @media screen and (min-width: 1400px) {
+      div.adbox_4 {
+        display: none;
+      }
+    }
+    @media screen and (max-width: 1400px) {
+      div.adbox_6 {
+        display: none;
+      }
+    }
   </style>
 </head>
 <body>
@@ -357,6 +385,10 @@ if (/canucklegame.github.io/.test(window.location) === true) {
     </div>
     <div class="adbox_5">
       <div class="ympb_target" data-type="desktop-leaderboard-template" data-subtype="728x90, 970x90">
+      </div>
+    </div>
+    <div class="adbox_6">
+      <div class="ympb_target_companion" data-type="desktop-medrec-template" data-subtype="400x600">
       </div>
     </div>
     <div class="game">
