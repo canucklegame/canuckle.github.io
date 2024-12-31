@@ -42716,7 +42716,8 @@ A.a3e.prototype={
 $0(){var s=this.a,r=s.c
 r.toString
 s.Kz(r,!0)
-A.hw(B.b.aF(A.fc(s.d.w).c,""),B.a3)},
+A.hw(B.b.aF(A.fc(s.d.w).c,""),B.a3)
+self._showVideoAd()},
 $S:1}
 A.a2R.prototype={
 $2(a,b){return B.i.b8(a.w,b.w)},
@@ -42830,7 +42831,8 @@ A.a3a.prototype={
 $0(){var s,r=this.a
 if(r.c!=null&&r.d.dn()){s=r.c
 s.toString
-r.Ky(s)}},
+r.Ky(s)
+self._showVideoAd()}},
 $S:1}
 A.a3b.prototype={
 $0(){},
