@@ -27158,7 +27158,7 @@ o=A.q2(new A.cY(n))
 s=3
 return A.R(A.t0(o,o.gm0().iz("gameVersions")).fG("canuckle").hy(0),$async$zK)
 case 3:p=b.ld(0)
-if(p!=null){q=p.h(0,"version")==="Version 2.1.0"
+if(p!=null){q=p.h(0,"version")==="Version 2.1.1"
 s=1
 break}q=!0
 s=1
@@ -42702,7 +42702,7 @@ e=$.aO?1:0
 d=$.t?1:0
 s=s?1:0
 c=b.r?1:0
-l.kp("level_end",A.aC(["level_name",b.a,"num_guesses",r,"hard_mode",g,"high_contrast",e,"dark_theme",d,"success",s,"version","Version 2.1.0","ad_code",f,"is_archive",c],t.N,t.z))},
+l.kp("level_end",A.aC(["level_name",b.a,"num_guesses",r,"hard_mode",g,"high_contrast",e,"dark_theme",d,"success",s,"version","Version 2.1.1","ad_code",f,"is_archive",c],t.N,t.z))},
 $S:9}
 A.a3c.prototype={
 $0(){var s=this.a
@@ -42716,8 +42716,7 @@ A.a3e.prototype={
 $0(){var s=this.a,r=s.c
 r.toString
 s.Kz(r,!0)
-A.hw(B.b.aF(A.fc(s.d.w).c,""),B.a3)
-self._showVideoAd()},
+A.hw(B.b.aF(A.fc(s.d.w).c,""),B.a3)},
 $S:1}
 A.a2R.prototype={
 $2(a,b){return B.i.b8(a.w,b.w)},
@@ -42831,8 +42830,7 @@ A.a3a.prototype={
 $0(){var s,r=this.a
 if(r.c!=null&&r.d.dn()){s=r.c
 s.toString
-r.Ky(s)
-self._showVideoAd()}},
+r.Ky(s)}},
 $S:1}
 A.a3b.prototype={
 $0(){},
@@ -45030,7 +45028,7 @@ r=j===6&&r?7:j
 j=$.eJ?1:0
 i=$.aO?1:0
 h=$.t?1:0
-l.kp("practice_game",A.aC(["level_name",g.a,"num_guesses",r,"hard_mode",j,"high_contrast",i,"dark_theme",h,"success",s,"version","Version 2.1.0"],t.N,t.z))},
+l.kp("practice_game",A.aC(["level_name",g.a,"num_guesses",r,"hard_mode",j,"high_contrast",i,"dark_theme",h,"success",s,"version","Version 2.1.1"],t.N,t.z))},
 $S:9}
 A.ahN.prototype={
 $0(){var s=this.a
@@ -45458,7 +45456,7 @@ j=$.t
 i=j?B.f:B.e
 h=A.b8("assets/email.svg",b,new A.kA($.aO?B.w:B.x,B.cv,b,B.cZ),20,b,b,24)
 k.push(A.Z(!0,new A.q(B.HU,A.hX(b,A.C(b,new A.q(B.nK,A.am(A.a([h,new A.q(B.nH,A.Y("Email",b,b,b,A.U(b,b,j?B.e:B.f,b,b,b,b,b,a,b,b,b,b,b,b,b,b,!0,b,b,b,b,b,b,b,b),b,b),b)],a8),B.j,B.o,B.k),b),B.h,b,b,new A.a6(i,b,b,B.aB,b,b,B.n),b,b,b,b,b,b,b),B.ab,!1,b,b,b,b,b,b,b,b,b,b,new A.ame(c),b,b,b),b),!1,b,b,!0,!1,b,b,b,b,"Email Canuckle",!0,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b))
-i="Version 2.1.0"+$.aJf+"\n\xa9 2024 Canuckle Games"
+i="Version 2.1.1"+$.aJf+"\n\xa9 2024 Canuckle Games"
 k.push(A.Z(b,new A.q(B.eO,A.Y(i,b,b,b,A.U(b,b,$.t?B.e:B.f,b,b,b,b,b,a,b,b,b,b,b,b,b,b,!0,b,b,b,b,b,b,b,b),b,b),b),!1,b,b,!0,!1,b,b,!0,b,i,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b))
 k.push(B.Sd)
 j=A.Y("POWERED BY",b,b,b,A.U(b,b,$.t?B.e:B.f,b,b,b,b,b,a,b,b,14,b,b,B.u,b,b,!0,b,b,b,b,b,b,b,b),b,b)
@@ -46262,7 +46260,7 @@ es(){if(this.c!=null)this.I(new A.aqw())},
 acN(a){A.bs().a0(new A.aq0(this,a),t.P)},
 Po(a){A.bs().a0(new A.aq1(this,a),t.P)},
 Uh(){var s=this.a.w,r=this.CW,q=r.f,p=r.c,o=this.dy,n=$.aO?1:0,m=$.t?1:0
-s.kp("trivia_level_end",A.aC(["level_index",r.a,"guess_time",q,"chosen_index",p,"correct_index",o,"high_contrast",n,"dark_theme",m,"success",r.b,"version","Version 2.1.0"],t.N,t.z))},
+s.kp("trivia_level_end",A.aC(["level_index",r.a,"guess_time",q,"chosen_index",p,"correct_index",o,"high_contrast",n,"dark_theme",m,"success",r.b,"version","Version 2.1.1"],t.N,t.z))},
 VX(a){var s,r,q,p="triviaStats",o=A.b_(J.bm(a.a,p))
 if(o==null)o=""
 s=new A.DT(0,0,0,0,0,0,0)

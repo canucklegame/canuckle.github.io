@@ -183,6 +183,17 @@
       overflow: hidden; 
       background-color: red;
     }
+    div.adbox_7 {
+      z-index: 99999;
+      align-items: center;
+      margin-top: 0px;
+      display: flex;
+      height: calc(100vh - 98px);
+      justify-content: center;
+      position: absolute;
+      width: calc(50vw - 300px);
+      overflow: hidden; 
+    }
     div.mobileadbox {
       z-index: 99999;
       height: 50px;
@@ -232,7 +243,7 @@
     div.adbox_6:nth-child(12) {
       left: 0;
     }
-    div.adbox_6:nth-child(13) {
+    div.adbox_7:nth-child(13) {
       right: 0;
     }
 
@@ -304,8 +315,11 @@
         display: none;
       }
     }
-    @media screen and (max-width: 1400px), screen and (max-height: 690px) {
+    @media screen and (max-width: 1400px) {
       div.adbox_6 {
+        display: none;
+      }
+      div.adbox_7 {
         display: none;
       }
     }
@@ -365,8 +379,8 @@
       <div class="ympb_target_companion" data-type="desktop-medrec-template" data-subtype="400x600">
       </div>
     </div>
-    <div class="adbox_6">
-      <div class="ympb_target_companion" data-type="desktop-medrec-template" data-subtype="400x600">
+    <div class="adbox_7">
+      <div class="ympb_target" data-type="desktop-medrec-template" data-subtype="160x600, 300x250, 336x280, 300x600">
       </div>
     </div>
     <div class="game">
@@ -451,7 +465,7 @@
           </div>
         </div>
         <div style="margin: 0 auto; margin-top: 20px; height: 100px; width: 100px;">
-          <img src="assets/assets/leaf_load.png" alt="Canuckle Loading Screen" width="100" height="100">
+          <img src="assets/assets/leaf_loading.svg" alt="Canuckle Loading Screen" width="100" height="100">
         </div>
       </div>
       <script src="flutter_bootstrap.js?version=20241030" async></script>
